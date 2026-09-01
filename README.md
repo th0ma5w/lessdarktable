@@ -1,3 +1,14 @@
+=========
+
+### FORK DETAILS
+
+The goal will be to maintain a fork that has all AI related features removed from the codebase. 
+
+
+=========
+
+
+
 [![icon](/data/pixmaps/idbutton.png?raw=true)](https://www.darktable.org/) darktable [![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/darktable-org/darktable/ci.yml?branch=master)](https://github.com/darktable-org/darktable/actions/workflows/ci.yml?query=branch%3Amaster+is%3Acompleted+event%3Apush) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/470/badge)](https://bestpractices.coreinfrastructure.org/projects/470)
 =========
 
@@ -16,7 +27,7 @@ darktable is **not** a free Adobe® Lightroom® replacement.
 3. [Requirements](#requirements)
    - [Supported platforms](#supported-platforms)
    - [Hardware](#hardware)
-   - [AI features (optional)](#ai-features-optional )
+   - ~~[AI features (optional)](#ai-features-optional )~~
 4. [Installing](#installing)
    - [Latest release](#latest-release)
    - [Development snapshot](#development-snapshot)
@@ -87,13 +98,13 @@ contrast equalizer, retouch or liquify to be slow beyond usable.*
 *A GPU is not mandatory but is strongly recommended for a smoother experience.
 Nvidia GPUs are recommended for safety because some AMD drivers behave unreliably with some modules (e.g. local contrast).*
 
-### AI features (optional)
+~~### AI features (optional)~~
 
-Darktable includes optional AI-powered features such as object masks, denoise and upscale.
+~~Darktable includes optional AI-powered features such as object masks, denoise and upscale.
 These require building with `-DUSE_AI=ON` (off by default), or `--enable-ai` when building
 with the build helper script `build.sh`. AI features are disabled by default in preferences
 and must be enabled by the user. Models are downloaded from the AI tab in preferences
-(default repository: [darktable-org/darktable-ai](https://github.com/darktable-org/darktable-ai)).
+(default repository: [darktable-org/darktable-ai](https://github.com/darktable-org/darktable-ai)).~~
 
 **CPU inference** is bundled and works out of the box - no additional software is needed.
 On macOS (Apple Silicon), CoreML acceleration and on Windows, DirectML GPU acceleration
