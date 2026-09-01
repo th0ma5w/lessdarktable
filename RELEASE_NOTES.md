@@ -127,6 +127,9 @@ changes (where available).
 - Added a control in the bottom panel of the lighttable to reset
   the star rating of images.
 
+- pixelpipe dump files requested via cli switches are now written
+  in ppm or pgm format.
+
 ## Bug Fixes
 
 - Clarified multi-image rating toasts for un-reject and for mixed
@@ -189,6 +192,9 @@ changes (where available).
 
 - Fixed broken dragging in sliders' precise-entry mode
   in GTK3.
+
+- Fixed the feather of a drawn path being lost when the shape was resized
+  with the scroll wheel.
 
 ## Lua
 
