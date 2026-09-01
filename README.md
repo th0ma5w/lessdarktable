@@ -2,6 +2,9 @@
 
 The goal will be to maintain a fork that has all AI related features removed from the codebase. 
 
+So far:
+  - Remove AI src tree
+  - Remove configuration options
 =========
 
 
